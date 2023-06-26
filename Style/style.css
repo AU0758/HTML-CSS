@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 span{
+    display: inline-block;
     background-color: black;
     padding: 50px;
     border-radius: 5px;

@@ -1,9 +1,27 @@
 @charset "UTF-8";
 
-span{
+body{
+    margin: 0px
+}
+
+div#QrCode{
     display: block;
+    width: 20%;
     background-color: black;
-    padding: 50px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #FFF;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px black;
+}
+div#QrCode > p{
+    font-size: 1.4em;
+    margin: 0px;
+}
+img{
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
 }

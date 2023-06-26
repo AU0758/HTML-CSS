@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+span{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+
+    width: 120px;
+    height: 200px;
+
+    box-shadow: 5px 5px 50px #000;
+    border: 500x transparent gray;
+
+    background-color: #363636;
+    color: white;
+    padding: 10px;
+    
+}
+
+span#d1{
+    background-image: linear-gradient(to bottom, rgb(143, 9, 9), rgb(26, 24, 24));
+    border-radius: 10px 0px 0px 10px;
+}
+span#d1:hover{
+    background-image: linear-gradient(to bottom, rgb(143, 9, 9), rgb(73, 8, 8));
+}
+span#d1:active{
+    background-image: linear-gradient(to bottom, rgb(208, 3, 3), rgb(150, 12, 12));
+}
+
+span#d2{
+    background-image: linear-gradient(to bottom, rgb(143, 67, 9), rgb(26, 24, 24));
+    border-radius: 0px;
+}
+span#d2:hover{
+    background-image: linear-gradient(to bottom, rgb(143, 67, 9), rgb(64, 33, 9));
+}
+span#d2:active{
+    background-image: linear-gradient(to bottom, rgb(198, 93, 13), rgb(137, 66, 12));
+}
+
+span#d3{
+    background-image: linear-gradient(to bottom, rgb(9, 112, 143), rgb(26, 24, 24));
+    border-radius: 0px 10px 10px 0px;
+}
+span#d3:hover{
+    background-image: linear-gradient(to bottom, rgb(9, 112, 143), rgb(7, 50, 63));
+}
+span#d3:active{
+    background-image: linear-gradient(to bottom, rgb(8, 154, 198), rgb(9, 97, 123));
+}

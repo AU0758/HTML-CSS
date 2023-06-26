@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(44, 44, 44);
+    font-family: Aroni;
+    font-size: 20px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 60, 60);
+    text-align: center;
+}
+h2{
+    color: rgba(255, 255, 255, 0.7)
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+}
+a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 60, 60);
+    text-align: justify;
+}

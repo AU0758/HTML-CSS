@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            
+            /* 
+            Medidas Absolutas:
+            cm, mm, in(polegada), px, pt(ponto, usada no word, por exemplo.), pc(paica)
+
+            Medidas Relativas:
+            em(tamanho atual da fonte), ex(altura x(tipografia)), rem(relativo ao ```root```), vw, vh, %
+
+            Medidas Recomendadas(da W3C):
+            uso de `px(usualy is: 16)` e `em(relativo ao tamanho default, e.g em 1.6 == 160% da letra original)`
+            */
+
+            /* font-weight: peso da fonte
+                e.g Luminoso, normal, Negrito, Mais Negrito
+                em ingles: lighter, normal, bold, bolder
+                (tambem pode ser representado em numeros 100-900(normalmente))
+                !NÃO CONFUDIR COM HEIGHT*/
+
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+
+            font: italic lighter 20px 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit repellendus rem voluptate! Quas eius aperiam expedita? Doloribus exercitationem esse quibusdam suscipit, adipisci voluptatem, rerum doloremque facere quas vitae animi reiciendis.</p>
+    <h2>Sub</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, excepturi magnam consequuntur est amet, enim numquam rerum nemo dolore natus, fugiat corporis nam aspernatur libero. Molestias doloribus ducimus nam dolore.</p>
+</body>
+</html>

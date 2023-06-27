@@ -48,11 +48,11 @@ div#Design:hover{
 
 div#Name h1{
     left: 50%;
-    top: 40%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }div#Web h1{
     left: 50%;
-    top: 140%;
+    top: 150%;
     transform: translate(-50%, -50%);
 }div#App h1{
     left: 50%;
@@ -60,7 +60,7 @@ div#Name h1{
     transform: translate(-50%, -50%);
 }div#Design h1{
     left: 50%;
-    top: 340%;
+    top: 350%;
     transform: translate(-50%, -50%);
 }
 h1{

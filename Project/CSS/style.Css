@@ -1,8 +1,11 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Staatliches&display=swap');
+@font-face {
+    font-family: Generator;
+    src: url(../Recources/GeneratorPersonalUse-RpK2W.ttf);
+  }
 
 body{
-    font-family: 'Staatliches', sans-serif;
+    font-family: 'Generator', sans-serif;
     margin: 0px;
     padding: 0px;
     transition-duration: 1s;
@@ -69,7 +72,7 @@ h1{
     position: absolute;
     color: rgb(255, 255, 255);
     margin: 0px;
-    font-size: 10vw;
+    font-size: 14vw;
     transition-duration: 1s;
 }
 h1:hover{

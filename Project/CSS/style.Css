@@ -1,6 +1,8 @@
 @charset "UTF-8";
+@import url('https://fonts.google.com/specimen/Staatliches?category=Display');
 
 body{
+    font-family: 'Staatliches';
     margin: 0px;
     padding: 0px;
 }

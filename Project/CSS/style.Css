@@ -5,6 +5,7 @@ body{
     font-family: 'Staatliches', sans-serif;
     margin: 0px;
     padding: 0px;
+    transition-duration: 1s;
 }
 
 div{
@@ -23,7 +24,7 @@ div#Web{
     background: rgb(30, 30, 30) url(../Recources/Images/WebDev.png) center center no-repeat fixed;
 }
 div#Web:hover{
-    background-image: linear-gradient(to bottom, rgba(230, 230, 230, 0), rgb(230, 230, 230, 0.4)), url(../Recources/Images/WebDev.png);
+    background-image: linear-gradient(to bottom, rgba(230, 230, 230, 0), rgba(255, 255, 255, 0.2)), url(../Recources/Images/WebDev.png);
 }
 
 div#App{
@@ -33,7 +34,7 @@ div#App{
 
 }
 div#App:hover{
-    background-image: linear-gradient(to bottom, rgba(60, 60, 60, 0), rgb(60, 60, 60)), url(../Recources/Images/AppDev.png);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0.2)), url(../Recources/Images/AppDev.png);
 }
 
 div#Design{
@@ -41,7 +42,7 @@ div#Design{
     background: rgb(30, 30, 30) url(../Recources/Images/Design.png) center center no-repeat fixed;
 }
 div#Design:hover{
-    background-image: linear-gradient(to bottom, rgba(60, 60, 60, 0), rgb(60, 60, 60)), url(../Recources/Images/Design.png);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0.2)), url(../Recources/Images/Design.png);
 }
 
 
@@ -73,4 +74,5 @@ h1{
 }
 h1:hover{
     color: rgb(1, 87, 172);
+    text-shadow: 0px 0px 50px black;
 }

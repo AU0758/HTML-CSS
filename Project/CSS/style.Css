@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    width: 100%;
+    height: 100vh;
+    font-size: 470%;
+}
+
+div#d1{
+    background-size: cover;
+    background: rgb(30, 30, 30) url(../Recources/Images/WebDev.png) center center no-repeat fixed;
+    margin: 0px;
+}
+div#d2{
+    background-size: cover;
+    background: rgb(30, 30, 30) url(../Recources/Images/AppDev.png) center center no-repeat fixed;
+    margin: 0px;
+}
+div#d3{
+    background-size: cover;
+    background: rgb(30, 30, 30) url(../Recources/Images/Design.png) center center no-repeat fixed;
+    margin: 0px;
+}
+
+div#d1 h1{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}div#d2 h1{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 150%;
+    transform: translate(-50%, -50%);
+}div#d3 h1{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 250%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    color: rgb(255, 255, 255);
+}

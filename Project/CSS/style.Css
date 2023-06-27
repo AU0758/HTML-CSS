@@ -6,46 +6,52 @@ body{
 }
 
 div{
+    background-color: rgb(50, 50, 50);
     width: 100%;
     height: 100vh;
     font-size: 470%;
-}
-
-div#d1{
+    margin: 0px;
     background-size: cover;
+
+}
+div#Name{
+    box-shadow: 0px 0px 100px;
+}
+div#Web{
+    box-shadow: 0px 0px 100px;
     background: rgb(30, 30, 30) url(../Recources/Images/WebDev.png) center center no-repeat fixed;
-    margin: 0px;
 }
-div#d2{
-    background-size: cover;
+div#App{
+
     background: rgb(30, 30, 30) url(../Recources/Images/AppDev.png) center center no-repeat fixed;
-    margin: 0px;
+    box-shadow: 0px 0px 100px;
+
 }
-div#d3{
-    background-size: cover;
+div#Design{
+
     background: rgb(30, 30, 30) url(../Recources/Images/Design.png) center center no-repeat fixed;
-    margin: 0px;
 }
 
-div#d1 h1{
-    position: absolute;
-    text-align: center;
+div#Name h1{
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
-}div#d2 h1{
-    position: absolute;
-    text-align: center;
+}div#Web h1{
     left: 50%;
-    top: 150%;
+    top: 140%;
     transform: translate(-50%, -50%);
-}div#d3 h1{
-    position: absolute;
-    text-align: center;
+}div#App h1{
     left: 50%;
     top: 250%;
     transform: translate(-50%, -50%);
+}div#Design h1{
+    left: 50%;
+    top: 340%;
+    transform: translate(-50%, -50%);
 }
 h1{
+    text-align: center;
+    position: absolute;
     color: rgb(255, 255, 255);
+    margin: 0px;
 }

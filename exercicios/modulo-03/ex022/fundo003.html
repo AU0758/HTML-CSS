@@ -1,51 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundo</title>
+    <title>.</title>
     <style>
-        body {
-            background-color: rgb(255, 255, 255);
-            font: 13pt Arial;
-            color: black;
-        }
-
-        div { 
-            width: 90%;
-            height: 400px;
-            background-color: lightgray;
-            background-image: url('imagens/wallpaper003.jpg');
+        div.bloco {
+            background-image: url(imagens/wallpaper003.jpg);
+            height: 100px;
             border: 1px solid black;
+            border-radius: 20px;
+            margin: 5px;
         }
 
-        div#area001 {
+        div#q1{
             background-position: left top;
         }
-
-        div#area002 {
+        div#q1:hover{
+            background-position: left center;
+        }
+        div#q1:active{
+            background-position: bottom center;
+        }
+        div#q2{
+            background-position: right top;
+        }
+        div#q2:hover{
+            background-position: right center;
+        }
+        div#q3{
+            background-position: left bottom;
+        }
+        div#q3:hover{
+            background-position: center center;
+        }
+        div#q4{
             background-position: right bottom;
         }
-
-        div#area003 {
-            background-position: center top;
-        }
-
-        div#area004 {
-            background-position: center center;
+        div#q4:hover{
+            background-position: top center;
         }
     </style>
 </head>
 <body>
-    <h1>Posição de um background</h1>
+    <div class="bloco" id="q1">
 
-    <h2>background-position: left top;</h2>
-    <div id="area001"></div>
-    <h2>background-position: right bottom;</h2>
-    <div id="area002"></div>
-    <h2>background-position: center top;</h2>
-    <div id="area003"></div>
-    <h2>background-position: center center;</h2>
-    <div id="area004"></div>
+    </div>
+    <div class="bloco" id="q2">
+
+    </div>
+    <div class="bloco" id="q3">
+
+    </div>
+    <div class="bloco" id="q4">
+
+    </div>
 </body>
 </html>

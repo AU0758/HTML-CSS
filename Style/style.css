@@ -3,9 +3,13 @@
 body{
     margin: 0px
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+
 
 div#QrCode{
-    display: inline-flex;
     width: 20%;
     background-color: black;
     margin: 10px;

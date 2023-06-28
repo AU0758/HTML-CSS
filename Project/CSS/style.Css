@@ -18,6 +18,7 @@ div{
     font-size: 470%;
     margin: 0px;
     background-size: cover;
+    text-transform: uppercase;
 }
 div#Name{
     box-shadow: 0px 0px 100px;

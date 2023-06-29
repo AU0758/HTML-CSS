@@ -18,6 +18,7 @@ div > p{
 }
 
 div{
+    padding: 10vh 10px;
     background-color: rgb(255, 255, 255);
     font-family: 'Tangerine', cursive;
 }
@@ -34,7 +35,6 @@ a{
 }
 
 div#Img1{
-    padding: 10px;
     box-shadow: inset 0px 0px 10px rgb(0, 0, 0);
     background-size: cover;
     background: rgb(0, 0, 0) url(images/background001.jpg) center center no-repeat fixed;
@@ -42,7 +42,6 @@ div#Img1{
 }
 
 div#Img2{
-    padding: 10px;
     box-shadow: inset 0px 0px 10px rgb(0, 0, 0);
     background-size: cover;
     background: rgb(0, 0, 0) url(images/background002.jpg) center left no-repeat fixed;
@@ -51,6 +50,5 @@ div#Img2{
 
 div#Img1 > p, div#Img2 > p{
     border-radius: 10px;
-    padding: 10px;
     background-color: rgba(72, 72, 72, 0.3);
 }

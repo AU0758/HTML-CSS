@@ -82,6 +82,7 @@ img:hover{
     transform: translateX(30%) rotate(360deg);
 }
 img:active{
+    border: 20px solid rgba(255, 255, 255, 0.9);
     transform: scale(1.1) translateX(30%);
     box-shadow: 0px 0px 50px rgb(0, 0, 0);
 }

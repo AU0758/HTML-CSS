@@ -94,7 +94,9 @@ h1:active{
     text-shadow: 0px 0px 100px black;
 }
 p{
+    width: 40vw;
     margin: 0px;
     padding: 10px;
     text-align: left;
+    size: 100%;
 }

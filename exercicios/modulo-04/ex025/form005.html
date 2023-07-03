@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input#inivel{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Sexo</legend>
+            <section>
+                <input type="radio" name="se" id="se_i_mas" value="M"><label for="se_i_mas">Masculino</label>
+                <input type="radio" name="se" id="se_i_fem" value="F"><label for="se_i_fem">Femenino</label>
+            </section>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <section>
+                
+                    <input type="checkbox" name="es_fot" id="i_es_fot"><label for="i_es_fot">Football</label>
+                    <input type="checkbox" name="es_bask" id="i_es_bask"><label for="i_es_bask">Basketball</label>
+                
+            </section>
+
+            <section>
+                
+                    <input type="checkbox" name="es_voll" id="i_es_voll"> <label for="i_es_voll">VolleyBall</label>
+                    <input type="checkbox" name="es_wate" id="i_es_wate"><label for="i_es_wate">WaterBall</label>
+                
+            </section>
+        </fieldset>
+        <fieldset>
+            <legend>Cor</legend>
+            <input type="color" name="color" id="color_i" value="#f0f0f0"><label for="color_i">Color</label>
+        </fieldset>
+        <fieldset>
+            <!-- Default: 0-100 -->
+            <legend>Satsfação</legend>
+            <input type="range" name="nivel
+            " id="inivel" min="0" max="5" step="0.1" value="0">
+            <input type="file" name="foto" id="ifoto">
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Submeter">
+            <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+    
+</body>
+</html>

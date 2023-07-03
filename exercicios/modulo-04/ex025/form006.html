@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="estado" id="iest">
+                <optgroup label="centro">
+                    <option value="S">Santarem</option>
+                    <option value="P">Porto</option>
+                    <option value="L">Lisboa</option>
+                </optgroup>
+                <optgroup label="cima">
+                    <option value="S">Santarem</option>
+                    <option value="P">Porto</option>
+                    <option value="L">Lisboa</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="DEV">Desemvolvedor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label>
+            <textarea name="msg" id="img" cols="30" rows="01" placeholder="ecregv algo"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Submeter">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

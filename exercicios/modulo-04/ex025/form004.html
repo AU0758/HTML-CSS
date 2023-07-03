@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        form{
+            transition-duration: 2s;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="imail">E-mail:</label>
+                <input type="email" name="email" id="imail" required>
+            </p>
+            <p>
+            <label for="ipho">Phone: </label>
+            <input type="tel" name="pho" id="ipho" autocomplete="tel" pattern="^\(\d{2}\)[0-9]{4}-[0-9]{4}$"required >
+            </p>
+            <!-- Estudar mais sobre expressões regulares -->
+            <p>
+                <input type="submit" value="Send">
+                <input type="reset" value="Clean">
+            </p>
+        </fieldset>
+        </form>
+</body>
+</html>

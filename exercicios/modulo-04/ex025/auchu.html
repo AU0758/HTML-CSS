@@ -8,11 +8,18 @@
 <body>
     <h1>FUMELARIO</h1>
     <form action="cadastro.php" method="post">
-        <p><label for="iusu">O mario:</label>
-        <input type="text" name="usu" id="iusu"></p>
-        <p><label for="ipes">Pes de word:</label>
-        <input type="password" name="pes" id="ipes"></p>
-        
+        <p>
+        <label for="iusu">O mario:</label>
+        <input type="text" name="usu" id="iusu" required minlength="10" maxlength="13" placeholder="your mom">
+        </p>
+        <p>
+        <label for="ipes">Pes de word:</label>
+        <input type="password" name="pes" id="ipes" required minlength="9" maxlength="10" placeholder="TheBjdjlCraft's password"  autocomplete="off">
+        </p>
+        <p>
+            <input type="submit" value="Numero 2">
+            <input type="reset"  value="Limpar">
+        </p>
     </form>
 </body>
-</html>
+</html

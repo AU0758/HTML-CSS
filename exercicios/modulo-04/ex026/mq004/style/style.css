@@ -37,6 +37,7 @@
     img#Printer, img#Tablet, img#PC, img#TV{
         display: none;
     }
+    
     ::-webkit-scrollbar{
         width: 0px;
         height: 0px;}

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* Mobile First */
+@media all {
+    :root{
+        --cor1: 178, 242, 255;
+        --cor2: rgb(250, 250, 250);
+        --cor3: rgb(200, 200, 200);
+        --cor4: rgb(150, 150, 150);
+        --cor5: rgb(100, 100, 100);
+        --cor6: rgba(100, 100, 100, 0);
+    }
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    html, body{
+        height: 100vh;
+        width: 100vw;
+    }
+    body{
+        background-color: rgb(var(--cor1));
+    }
+
+    header{
+        background: var(--cor2) linear-gradient(to bottom, var(--cor2), var(--cor3));
+        margin: 0px auto 10px auto;
+    }
+    header h1{
+        text-align: center;
+        padding: 10px;
+        color: rgb(var(--cor5));
+        text-shadow: 0px 0px 10px var(--cor5);
+    }
+    menu{
+        text-align: center;
+        background-image: linear-gradient(to top, var(--cor5), var(--cor6));
+    }
+    menu ul{
+        list-style-type: none;
+    }
+    menu li{
+        padding: 10px;
+        border-top: 2px dashed black;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    li:hover{
+        background-color: var(--cor4);
+    }
+
+    main{
+        background: var(--cor2) linear-gradient(to bottom, var(--cor2), var(--cor3));
+        padding: 10px;
+        margin: 10px auto 10px auto;
+        width: 90vw;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px black;
+        transition-duration: 2s;
+    }
+    main h1{
+        padding: 10px;
+        margin: 0px 0px 10px 0px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    hr{
+        margin: 10px 0px 10px 0px;
+    }
+
+    ::-webkit-scrollbar{
+        width: 0px;
+        height: 0px;}
+}
+
+/*menu li{
+        display: inline-block;
+        background-color: var(--cor5);
+        padding: 10px;
+        margin: 10px 10px 0px 10px;
+        transition-duration: 2s;
+        border-radius: 5px 5px 0px 0px;
+    }
+    menu li:hover{
+        background-color: var(--cor1);
+    }

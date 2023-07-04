@@ -1,3 +1,10 @@
 @charset "UTF-8";
 
 /* Configurações Landscape */
+
+body{
+    background: rgb(210, 210, 210) url(../cev-portrait.jpg) center bottom no-repeat fixed;
+    background-size: cover;
+    color: rgb(45, 45, 45);
+    text-shadow: 0px 0px 50px black;
+}

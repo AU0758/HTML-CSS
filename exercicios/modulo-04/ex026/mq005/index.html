@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query Learning 5</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style/style.css">
+    
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <label for="phone"><img src="" alt=""></label>
-        <menu id="phone">
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <menu id="menu">
             <ul>
                 <li><a href="#" id="phone">Opção 1</a></li>
                 <li><a href="#" id="phone">Opção 2</a></li>
@@ -33,5 +37,15 @@
     <footer>
         <p>NÃO ROUBAR POR: GG</p>
     </footer>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'none'){
+                menu.style.display = 'block'
+            }
+            else{
+                menu.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 </html>

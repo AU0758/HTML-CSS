@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style/style.css">
     
 </head>
-<body>
+<body onresize="SizeChange()">
     <header>
         <h1>Meu Site</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
@@ -44,6 +44,11 @@
             }
             else{
                 menu.style.display = 'none'
+            }
+        }
+        function SizeChange() {
+            if (window.innerWidth >= 481){
+                menu.style.display = 'block'
             }
         }
     </script>

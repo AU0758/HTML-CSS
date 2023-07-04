@@ -59,7 +59,7 @@
         background: var(--cor2) linear-gradient(to bottom, var(--cor2), var(--cor3));
         padding: 10px;
         margin: 10px auto 10px auto;
-        width: 90vw;
+        max-width: 800px;
         border-radius: 10px;
         box-shadow: 0px 0px 10px black;
         transition-duration: 2s;
@@ -95,6 +95,26 @@
         width: 0px;
         height: 0px;}
 }
+
+@media screen and (min-width: 481px) {
+    menu{
+        display: block;
+    }
+    menu li{
+        display: inline;
+        padding: 10px;
+        border: none;
+        transition-duration: 2s;
+        border-radius: 5px 5px 0px 0px;
+        background-color: var(--cor2);
+        box-shadow: 0px -8px 8px;
+    }
+    span#burguer{
+        display: none;
+    }
+    
+}
+
 
 /*menu li{
         display: inline-block;

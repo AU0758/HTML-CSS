@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #D7C5AE;
+    --cor2: #BE9D82;
+    --cor3: #9D8169;
+    --cor4: #655D4D;
+    --cor5: #20211C;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background-color: var(--cor1);
+    background-image: none;
+}
+
+
+
+section#login{
+    position: absolute;
+
+    width: 300px;
+    height: 550px;
+
+    margin: 10px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: var(--cor3);
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 20px var(--cor5);
+
+    overflow: hidden;
+}
+
+div#imagem{
+    height: 30%;
+    width: 100%;
+
+    box-shadow: inset 0px 0px 5px black;
+    background-image: url(Assets/image.jpg);
+}
+
+div#formulario{
+    padding: 10px;
+}
+div#formulario h1{
+    font-size: 2em;
+    text-align: center;
+    color: var(--cor5);
+}
+div#formulario p{
+    text-align: center;
+    color: var(--cor5);
+}
+.cadastro{
+    background-color: var(--cor4);
+    border-radius: 10px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type=submit]{
+    margin-top: 10px;
+    display: block;
+    border: none;
+
+    width: 100%;
+    height: 50px;  
+
+    text-align: center;
+
+    font-size: 2em;
+
+    background-color: var(--cor4);
+    color: var(--cor3);
+
+    border-radius: 10px;
+}
+a{
+    display: block;
+    text-decoration: none;
+
+    border: 1px solid var(--cor4);
+
+    width: 100%;
+    height: 50px;  
+    margin-top: 10px;
+
+    text-align: center;
+
+    font-size: 2em;
+
+    background-color: var(--cor3);
+    color: var(--cor4);
+
+    border-radius: 10px;
+}
+a:hover{
+    border: none;
+    background-color: var(--cor4);
+    color: var(--cor3);
+}
+input[type=email], input[type=password]{
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+}
+input:focus-within{
+    border: none;
+}
+
+span{
+    position: absolute;
+    top: 58.5%;
+    left: 8%;
+    color: var(--cor2);
+}
+span#icopass{
+    top: 69.5%;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* Typical Device Breakpoints
+    Mobile devices – 320px — 480px.
+    iPads, Tablets – 481px — 768px.
+    Small screens, laptops – 769px — 1024px.
+    Desktops, large screens – 1025px — 1200px.
+    Extra large screens, TV – 1201px, and more.
+
+/* Tabet */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    body{
+        background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    }
+    section#login{
+        width: 600px;
+        height: 365px;
+
+        transition-duration: 2s;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+    span{
+        position: absolute;
+        top: 37.5%;
+        left: 40%;
+        color: var(--cor2);
+    }
+    span#icopass{
+        top: 70%;
+    }
+}
+/* Destop */
+@media screen and (min-width: 1024px){
+    body{
+        background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    }   
+    section#login{
+        width: 1000px;
+        height: 565px;
+    } 
+    section#login > div#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: left;
+        width: 45%;
+        height: 100%;
+    }
+    input[type=submit]{
+        margin-top: 90px;
+    }
+    .cadastro{
+        height: 100px;
+    }
+    input[type=email], input[type=password]{
+        width: 80%;
+        display: inline-block;
+        border: none;
+        border-radius: 10px;
+        height: 100%;
+        text-align: center;
+        margin-left: 80px;
+    }
+    span{
+        position: absolute;
+        top: 25.5%;
+        left: 4.5%;
+        color: var(--cor2);
+    }
+    span#icopass{
+        top: 50%;
+    }
+}

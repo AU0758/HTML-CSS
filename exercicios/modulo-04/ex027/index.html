@@ -13,28 +13,28 @@
         <section id="login">   
             <div id="img"></div>
         
-            <div id="login">
-                <h1>Login</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <p id="i">
-                    <span class="material-symbols-outlined">
-                        account_circle
-                    </span>
-                    <label for="iuser"></label>
-                    <input type="text" name="user" id="iuser">
-                </p>
-                <p id="i">
-                    <span class="material-symbols-outlined">
-                        key
-                    </span>
-                    <label for="ipass"></label>
-                    <input type="text" name="pass" id="ipass">
-                </p>
-                <input type="submit" value="Entrar">
-                <br>
-                <a href="#">Esqueci a senha</a>
-            </div>
-        </section>
-    </main>
-</body>
-</html>
+            <form action="cd.php" autocomplete="on">
+                <div id="login">
+                    <h1>Login</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <p id="i">
+                        <span class="material-symbols-outlined" id="icouser">
+                            person
+                        </span>
+                        <input type="email" name="user" id="iuser" placeholder="seu email" autocomplete="email">
+                        <label for="iuser"></label>
+                    </p>
+                    <p id="i">
+                        <span class="material-symbols-outlined">
+                            key
+                        </span>
+                        <input type="password" name="pass" id="ipass" placeholder="Sua pass" autocomplete="current-password" required minlength="8" maxlength="20">
+                        <label for="ipass"></label>
+                    </p>
+                    <input type="submit" value="Entrar" id="entrar">
+                    <br>
+                    <a href="esqueci.html" class="botao">Esqueci a senha<span class="material-symbols-outlined">
+                        mail
+                    </span></a>
+                </div>
+            </form>

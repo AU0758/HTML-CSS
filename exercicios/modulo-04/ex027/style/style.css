@@ -49,11 +49,53 @@ div#img{
 div#login{
     padding: 10px;
 }
+div#login > p{
+    margin: 10px 0px 10px 0px;
+}
 p#i{
     background-color: #56638A;
 }
 
+form input[type=submit] {
+    display: block;
 
+    width: 100%;
+    font-size: 1.9em;
+    height: 35px;
+
+    border: none;
+
+    color: #BABFD1;
+    background-color: #56638A;
+    border-radius: 10px;
+    transition-duration: 2s;
+    cursor: pointer;
+    margin: 10px;
+}
+form a{
+    display: block;
+
+    width: 100%;
+    font-size: 1.5em;
+    height: 35px;
+
+    border: none;
+
+    text-decoration: none;
+
+    color: #BABFD1;
+    background-color: #404a68;
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: 2s;
+}
+form input[type=submit]:hover{
+    background-color: #404a68;
+    box-shadow: 0px 0px 10px black;
+}
+form input[type=email], input[type=password]{
+
+}
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -70,6 +112,9 @@ p#i{
         float: right;
         width: 65%;
     }
+    form input[type=submit]{
+        width: 65%;
+    }
 }
 /* Desktop */
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -78,12 +123,15 @@ p#i{
         width: 70vw;
     }
     section#login > div#img{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section#login > div#login{
-        float: right;
+        float: left;
+        width: 50%;
+    }
+    form input[type=submit]{
         width: 50%;
     }
 }
